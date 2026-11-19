@@ -21,6 +21,7 @@ Player locations are public. Players and rogues always know their own lives (if 
 * Players and rogues know whether each of their trades was successful (the target received the token).
 * Players and rogues know who traded to them.
 * Rogues can learn about players by spying.
+* Players know if they were spied on that round, but not which rogue spied on them.
 
 ### Winning and Points
 The last player alive is declared the winner and the game ends.
@@ -81,7 +82,7 @@ All actions and events in the game occur at the end of a round. This is the orde
 10. Blue tokens go to killers
 11. Players with > 5 lives are set to 5 lives
 12. Surviving players gain points
-13. Spy information is given
+13. Spy information is given, and spied-on players are notified
 
 *Includes trades made by rogues, but not trades from players to rogues, which happen in step 7.
 
